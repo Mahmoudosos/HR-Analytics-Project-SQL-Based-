@@ -215,15 +215,3 @@ delete from hr_department.engagement_survey as s where not exists (
 
 
 
-
-select * from data_33;
-
-create table aha (column_20 integer);
-insert into aha values (4),(4),(3);
-select * from aha;
-select * from data_33;
-select column_3 from data_33 d3 where exists (select * from aha where column_20 = d3.column_1);
-
-
-
-
