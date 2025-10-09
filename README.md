@@ -104,33 +104,54 @@ Cleaned and merged HR datasets using Pandas for:
 
 Key descriptive analyses:
 
-- Age Distribution: Median age = 41
+- over 50% of the workforce is aged 40–60
 
-- Gender Split: **55% female, 45% male**
+- Across all age groups, “Fully Meets” is the dominant performance rating (>50%)
 
-- Employee Type: **37% full-time, 31% part-time, 33% temporary**
+- A Spearman test found no significant correlation between age and performance.
 
-- Performance: **78% “Fully Meets,” 13% “Exceeds,” 8% below standard**
+- Tenure is highly concentrated in the first two years, with smaller peaks around the third year, then declines steadily across all departments.
 
-Statistical Tests:
-| Test | Purpose | Result |
-| ------------------------- | --------------------------------------------------- | ---------------------------- |
-| **Kruskal–Wallis H-test** | Check differences in engagement between departments | Significant difference found |
-| **Spearman Correlation** | Relationship between engagement and satisfaction | Positive correlation |
-| **T-test / Mann-Whitney** | Compare engagement by gender | No significant difference |
-| **Chi-Square Test** | Relationship between performance and department | Statistically significant |
+- Kruskal–Wallis tests show no significant differences in tenure distribution between departments.
+
+- All age groups show the same early concentration within the first 2–3 years.
+- Age does not fundamentally change tenure patterns—the first three years are critical regardless of age group (Using Kruskal-Wallis test).
+
+- there's weak or no correlations among engagement, satisfaction, and work–life balance scores.
+
+- Department-level engagement differences are not strong enough to conclude systematic disparities
+
+- Early tenure (especially the first 3 years) is the most critical period for employee retention, regardless of termination type
+
+- Training costs vary by department, though average per-employee costs are fairly uniform.
 
 ### 3. Business Insights:
 
-- Engagement varies significantly by department, indicating uneven workplace experience.
+For Retention Strategy:
 
-- Satisfaction and engagement are positively correlated — boosting one can improve the other.
+- Focus on the first 3 years of employment, where turnover risk is highest.
 
-- Turnover rate = 39.7%, driven mainly by temporary contracts and lower engagement scores.
+- Develop onboarding and mentoring programs targeted at early-career employees.
 
-- Older employees (55+) show higher voluntary termination rates.
+For Workforce Planning:
 
-- Training programs improve satisfaction when completed successfully.
+- Address the underrepresentation of younger employees to build a sustainable talent pipeline.
+
+- Strengthen succession planning to balance the middle-aged workforce profile.
+
+For Engagement & Performance:
+
+- Manage engagement, satisfaction, and performance separately, since they are weakly correlated.
+
+- Launch targeted initiatives (e.g., flexible work for WLB, recognition programs for performance).
+
+For Training & Development:
+
+- Review training program design and delivery, rather than extending duration.
+
+- Tailor training content by department, especially in Sales, IT, and Production, to improve outcomes.
+
+- Evaluate cost-effectiveness of technical training, given higher expenses but similar pass rates.
 
 ## Part 3 – Power BI Dashboards:
 
