@@ -5,6 +5,7 @@ CONTACTS:
 2. Add the data to the lookup_tables
 3. Replace the columns in the main tables with ID's columns
 4. Make sure that there's no employee on the training_and_development table and engagement_survey is not on the employees table
+5. add age column to employees table
 */
 
 
@@ -211,6 +212,18 @@ delete from hr_department.engagement_survey as s where not exists (
 	select * from hr_department.employees e
 	where s.employee_id = e.empid
 );
+
+-- # 5- Add the age column
+alter table hr_department.employees add column age integer;
+update hr_department.employees set age = extract(year from age(dob));
+
+
+
+
+
+
+
+
 
 
 
